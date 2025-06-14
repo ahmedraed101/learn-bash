@@ -161,5 +161,4 @@ exit 1  # Error
 
 ---
 
-Would you like to practice writing a simple script together?
 
