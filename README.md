@@ -1,4 +1,3 @@
-Absolutely! Let’s go over the **basic syntax** of Bash scripting step by step. I’ll explain the structure, common elements, and give examples for each.
 
 ---
 
