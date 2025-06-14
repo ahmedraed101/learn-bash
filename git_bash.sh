@@ -9,7 +9,7 @@ gitoutput=$(git status --porcelain)
 echo -e "$gitoutput"
 
 if [[ -n $gitoutput ]]; then
-    commitmessage=${1:- "Auto commit on $(date +'%a %d-%m(%b)-%Y %I-%M-%S %p')"}
+    commitmessage=${1:- "Auto commit on $(date +'%a %d-%m(%b)-%y %I-%M-%S %p')"}
     echo $commitmessage
 
     git add .
